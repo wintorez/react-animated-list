@@ -2,9 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/react.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>Animated List</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/simpledotcss/simple.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <style type="text/css">
+      :root {
+        --animate-duration: 750ms;
+      }
+      input,
+      button,
+      select {
+        margin: 0;
+        vertical-align: middle;
+      }
+      li {
+        cursor: pointer;
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
