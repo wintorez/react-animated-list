@@ -32,7 +32,7 @@ const exists = [
 function App() {
   const [enter, setEnter] = useState('fadeIn')
   const [exit, setExit] = useState('fadeOut')
-  const [items, setItems] = useState([])
+  const [items, setItems] = useState([{ value: Date.now(), animation: 'backInRight' }])
 
   function removeItem(value) {
     if (!value) return
